@@ -2,7 +2,7 @@
   "name": "versace",
   "displayName": "Versace",
   "description": "Syntax Highlighting For Versace Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "images/logo.ico",
   "publisher": "ZE7111",
   "repository": {
@@ -10,8 +10,8 @@
     "url": "https://github.com/Ze7111/Versace-VSCode-Extension"
   },
   "engines": {
-    "vscode": "^1.72.0",
-    "visualstudio": "^1.72.0"
+    "vscode": "^1.0.0",
+    "visualstudio": "^1.0.0"
   },
   "categories": [
     "Programming Languages",

@@ -651,7 +651,7 @@
                 {
                     "comment": "control flow keywords",
                     "name": "keyword.control.rust",
-                    "match": "\\b(await|break|continue|do|else|else if|with|elif|for|if|loop|match|return|try|while|yield|pass)\\b"
+                    "match": "\\b(await|break|continue|do|switch|stop|else|else if|with|elif|for|if|loop|match|return|try|while|yield|pass)\\b"
                 },
                 {
                     "comment": "storage keywords",
@@ -674,9 +674,9 @@
                     "match": "\\b(enum)\\b"
                 },
                 {
-                    "comment": "trait keyword",
+                    "comment": "method keyword",
                     "name": "keyword.declaration.trait.rust storage.type.rust",
-                    "match": "\\b(trait)\\b"
+                    "match": "(@)\\w+"
                 },
                 {
                     "comment": "struct keyword",
