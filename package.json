@@ -1,0 +1,34 @@
+{
+  "name": "versace",
+  "displayName": "Versace",
+  "description": "Syntax Highlighting For Versace Code",
+  "version": "1.0.1",
+  "icon": "images/logo.ico",
+  "publisher": "ZE7111",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ze7111/Versace-Syntax-Highlighting"
+  },
+  "engines": {
+    "vscode": "^1.72.0",
+    "visualstudio": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "verscae",
+      "aliases": ["versace", "verscae"],
+      "extensions": [".v"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "verscae",
+      "scopeName": "source.rust",
+      "path": "./syntaxes/versace.tmLanguage.json"
+    }]
+  }
+}
