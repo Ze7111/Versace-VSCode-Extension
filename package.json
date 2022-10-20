@@ -7,7 +7,7 @@
   "publisher": "ZE7111",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ze7111/Versace-Syntax-Highlighting"
+    "url": "https://github.com/Ze7111/Versace-VSCode-Extension"
   },
   "engines": {
     "vscode": "^1.72.0",
